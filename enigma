@@ -1,0 +1,17 @@
+n = input()
+n = int(n)
+x = 0
+y = 0
+e = 1
+
+while x != n:
+    r = input()
+    v = r.split()#la split crea listas
+    while y != v[y]:
+        r = int(r)
+        print(v[e])
+        e = e + 1
+        c = v[e]*v[e]
+    x = x + 1
+#c, a = v.spl1it()
+#lista_espera.insert(2, 'Helen Chufada')
